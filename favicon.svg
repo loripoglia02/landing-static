@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="250 243 780 780">
+  <defs>
+    <mask id="f-anello" maskUnits="userSpaceOnUse" x="250" y="243" width="780" height="780">
+      <rect x="250" y="243" width="780" height="780" fill="#fff"/>
+      <circle cx="648" cy="686" r="68" fill="#000"/>
+    </mask>
+  </defs>
+  <rect x="250" y="243" width="780" height="780" rx="170" fill="#F4F2E8"/>
+  <g fill="none" stroke="#2B28D6" stroke-width="85" stroke-linecap="round" mask="url(#f-anello)">
+    <path d="M398 367H726A157 157 0 0 1 726 681H650"/>
+    <path d="M713 541H493A98 98 0 0 0 395 639V817"/>
+    <path d="M395 683H650"/>
+    <path d="M644 690V897"/>
+  </g>
+  <circle cx="648" cy="686" r="43" fill="#5C8A93"/>
+</svg>

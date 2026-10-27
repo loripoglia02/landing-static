@@ -1,0 +1,824 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Protocollo Terapista — Nuovi pazienti per studi di terapia manuale</title>
+<meta name="description" content="Campagne nella tua zona, un commerciale che richiama in pochi minuti chi ti cerca e appuntamenti fissati nel tuo calendario. Per studi di fisioterapia, osteopatia e massoterapia. Richiedi la diagnosi gratuita del tuo studio.">
+<meta name="theme-color" content="#141414">
+
+<!-- Open Graph: quando il dominio è deciso, sostituire og:image e og:url con indirizzi assoluti -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="it_IT">
+<meta property="og:site_name" content="Protocollo Terapista">
+<meta property="og:title" content="Protocollo Terapista — Tu ti occupi dei pazienti, noi di come arrivano in agenda">
+<meta property="og:description" content="Campagne nella tua zona, un commerciale che richiama in pochi minuti chi ti cerca e appuntamenti fissati nel tuo calendario. Richiedi la diagnosi gratuita del tuo studio.">
+<meta property="og:image" content="/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/assets/img/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter+Tight:wght@400;500;600;700&family=DM+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="/assets/css/style.css">
+
+<script>document.documentElement.classList.add('js');</script>
+<script src="/config.js" defer></script>
+<script src="/assets/js/main.js" defer></script>
+</head>
+<body>
+
+<!-- Banner cookie (primo nel codice: con la tastiera lo si incontra subito) -->
+<div class="cookie" role="region" aria-label="Cookie" hidden>
+  <p class="cookie-t"><b>Cookie</b> Usiamo cookie tecnici per far funzionare la pagina e, con il tuo consenso, cookie di statistica e di marketing per misurare le campagne. <a data-href="cookie" href="#" target="_blank" rel="noopener">Cookie policy</a></p>
+  <div class="cookie-prefs" hidden>
+    <label class="chk"><input type="checkbox" checked disabled><span>Cookie tecnici</span></label>
+    <label class="chk"><input type="checkbox" data-consent="stat"><span>Cookie di statistica</span></label>
+    <label class="chk"><input type="checkbox" data-consent="mkt"><span>Cookie di marketing</span></label>
+  </div>
+  <div class="cookie-btns">
+    <button type="button" class="cbtn" data-cookie="personalizza">Personalizza</button>
+    <button type="button" class="cbtn" data-cookie="salva" hidden>Salva le scelte</button>
+    <button type="button" class="cbtn" data-cookie="rifiuta">Rifiuta</button>
+    <button type="button" class="cbtn" data-cookie="accetta">Accetta tutti</button>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="#inizio" aria-label="Protocollo Terapista, torna all’inizio">
+      <img src="/assets/img/logo-pt-crema.svg" alt="" width="28" height="30">
+      <span>Protocollo Terapista</span>
+    </a>
+    <nav class="nav" aria-label="Principale">
+      <a href="#metodo">Come lavoriamo</a>
+      <a href="#per-chi">Per chi è</a>
+      <a href="#faq">Domande</a>
+    </nav>
+    <a class="btn btn-sm" href="#diagnosi"><span class="only-desk">Richiedi la diagnosi</span><span class="only-mob">Diagnosi</span></a>
+  </div>
+</header>
+
+<main>
+
+<!-- HERO -->
+<section class="hero dark" id="inizio" aria-labelledby="t-hero">
+  <div class="wrap hero-in">
+    <p class="hero-pre">Per titolari di studi di fisioterapia, osteopatia e massoterapia</p>
+    <h1 id="t-hero">Tu ti occupi dei pazienti.<br>Noi di come <strong>arrivano in agenda</strong>.</h1>
+    <p class="hero-sub">Facciamo conoscere il tuo studio alle persone della tua zona, richiamiamo in pochi minuti chi chiede informazioni e fissiamo l’appuntamento direttamente nel tuo calendario. Così l’arrivo di nuovi pazienti smette di dipendere solo dal passaparola, e il tuo tempo resta per chi è già in studio.</p>
+    <div class="hero-cta">
+      <a class="btn btn-glow" href="#diagnosi">Voglio la diagnosi gratuita del mio studio</a>
+      <a class="btn btn-line" href="#metodo">Come funziona</a>
+    </div>
+    <p class="hero-micro">Senza impegno · 9 domande, un paio di minuti · Pronta in 24&nbsp;ore&nbsp;lavorative</p>
+  </div>
+
+  <div class="curve" aria-hidden="true">
+    <div class="dots-mountains"></div>
+    <svg class="curve-line" viewBox="0 0 1440 220" preserveAspectRatio="none"><path class="draw" pathLength="1" d="M0 120 C 180 150, 300 40, 470 70 S 650 175, 720 170 S 900 40, 1010 60 S 1260 140, 1440 110"/></svg>
+    <div class="curve-pts">
+      <span class="cp cp1"><i class="cp-ic"><svg viewBox="0 0 24 24"><path d="M4 5h16v11H8l-4 4z"/></svg></i><span>Chiedono informazioni</span><b></b></span>
+      <span class="cp cp2"><i class="cp-ic"><svg viewBox="0 0 24 24"><path d="M6.6 3.5l3 3.6-1.9 2a12 12 0 0 0 7.2 7.2l2-1.9 3.6 3-1.7 3.1C11 20.3 3.7 13 3.5 5.2z"/></svg></i><span>Li richiamiamo<br>in pochi minuti</span><b></b></span>
+      <span class="cp cp3"><i class="cp-ic"><svg viewBox="0 0 24 24"><path d="M4 6h16v14H4zM4 10h16M9 3v5M15 3v5"/></svg></i><span>Arrivano in agenda</span><b></b></span>
+    </div>
+  </div>
+</section>
+
+<!-- COSA CAMBIA NELLA TUA SETTIMANA (carte inclinate) -->
+<section class="sec light cards3-sec" aria-labelledby="t-tre">
+  <div class="wrap">
+    <div class="head-c reveal">
+      <h2 id="t-tre">Cosa cambia<br><strong>nella tua settimana.</strong></h2>
+      <p class="lead">Il lavoro in studio resta il tuo, con i tuoi tempi. Cambia il modo in cui arrivano i pazienti nuovi.</p>
+    </div>
+    <div class="cards3">
+      <figure class="tc tc-1 reveal">
+        <span class="tc-ck" aria-hidden="true"></span>
+        <div class="tc-visual" aria-hidden="true">
+          <div class="mk-ad">
+            <div class="mk-ad-top"><i></i><span><b>Il tuo studio</b><small>Sponsorizzato</small></span></div>
+            <div class="mk-ad-img"><span>Valutazione della spalla</span><small>a 800 metri da te</small></div>
+            <div class="mk-ad-cta"><span>Studio di fisioterapia</span><em>Prenota</em></div>
+          </div>
+        </div>
+        <figcaption><b>Ti trovano nella tua zona</b><span>con campagne su un servizio preciso</span></figcaption>
+      </figure>
+      <figure class="tc tc-2 reveal">
+        <span class="tc-ck" aria-hidden="true"></span>
+        <div class="tc-visual tc-visual-blue" aria-hidden="true">
+          <div class="mk-call">
+            <small>Chiamata in uscita</small>
+            <b>Marco R.</b>
+            <span class="mk-call-t">02:14</span>
+            <span class="mk-call-note">Nuovo contatto · arrivato 4 min fa</span>
+            <i class="mk-call-btn"></i>
+          </div>
+        </div>
+        <figcaption><b>Chi ti scrive viene richiamato</b><span>anche mentre sei in seduta</span></figcaption>
+      </figure>
+      <figure class="tc tc-3 reveal">
+        <span class="tc-ck" aria-hidden="true"></span>
+        <div class="tc-visual" aria-hidden="true">
+          <div class="mk-cal">
+            <div class="mk-cal-h"><b>Giovedì</b><small>Il tuo calendario</small></div>
+            <div class="mk-slot"><small>09:00</small><span class="busy">Paziente</span></div>
+            <div class="mk-slot"><small>10:00</small><span class="new">Marco R. · Prima visita</span></div>
+            <div class="mk-slot"><small>11:00</small><span class="busy">Paziente</span></div>
+            <div class="mk-slot"><small>12:00</small><span></span></div>
+          </div>
+        </div>
+        <figcaption><b>Trovi l’appuntamento fissato</b><span>nel tuo calendario, senza richiamare nessuno</span></figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- IL QUADRO: righe impilate + storia -->
+<section class="sec dark stack-sec" aria-labelledby="t-stack">
+  <div class="wrap narrow">
+    <h2 class="sr-only" id="t-stack">Come si perde un paziente</h2>
+    <ol class="stack reveal">
+      <li>Una persona ha mal di schiena da giorni.</li>
+      <li>Scrive a più studi della zona.</li>
+      <li>Prenota con chi le <strong>risponde per primo</strong>.</li>
+    </ol>
+    <p class="stack-more reveal">Quando sei in seduta, quel primo difficilmente sei tu.</p>
+
+    <div class="story reveal">
+      <h3>Martedì, ore 20:40.</h3>
+      <p>Chiudi la porta dello studio, prendi il telefono e trovi i messaggi arrivati nel pomeriggio. Qualcuno chiede se hai posto questa settimana, qualcun altro quanto costa una seduta.</p>
+      <p class="story-msg">«Buongiorno, avete posto questa settimana? Ho un dolore alla spalla da giorni.»</p>
+      <p>Rispondi a tutti con la cura che metti in ogni cosa, ma a quell’ora una parte di quelle persone ha già fissato altrove, con lo studio che l’ha richiamata alle tre del pomeriggio.</p>
+      <p>Non dipende dalla tua preparazione e nemmeno dal tuo impegno. Quando sei tu a curare i pazienti, il momento in cui potresti rispondere coincide quasi sempre con quello in cui hai le mani su qualcuno. Così la crescita dello studio finisce per dipendere da cose che non decidi tu: il passaparola, le convenzioni, il periodo dell’anno.</p>
+      <p class="story-end">Il risultato è un’agenda che va a ondate, e la sensazione di <strong>non sapere da dove arriveranno i pazienti del mese prossimo</strong>.</p>
+    </div>
+  </div>
+</section>
+
+<!-- OGGI / CON UN SISTEMA + dati di mercato -->
+<section class="sec dark dark-2" aria-labelledby="t-prob">
+  <div class="wrap">
+    <h2 class="sr-only" id="t-prob">Cosa succede oggi e cosa cambia con un sistema</h2>
+    <div class="ps">
+      <div class="ps-col reveal">
+        <p class="ps-h">Oggi</p>
+        <p class="ps-sub">Lavori bene, ma l’agenda va a ondate.</p>
+        <div class="ps-visual" aria-hidden="true">
+          <div class="mk-notif">
+            <span class="mk-clock">20:41</span>
+            <div class="mk-n"><b>WhatsApp</b><small>15:02</small><p>Buongiorno, avete posto questa settimana?</p></div>
+            <div class="mk-n"><b>Instagram</b><small>16:40</small><p>Info sui prezzi?</p></div>
+            <div class="mk-n"><b>WhatsApp</b><small>18:15</small><p>Salve, ho mal di schiena da giorni…</p></div>
+          </div>
+        </div>
+        <div class="acc">
+          <details name="prob" open><summary>Il passaparola decide il ritmo</summary><p>Resta la fonte più preziosa, perché porta persone che si fidano già di te. Il limite è che non lo controlli: nei mesi in cui si parla meno di te, l’agenda si svuota senza che tu possa farci molto.</p></details>
+          <details name="prob"><summary>Rispondi quando puoi</summary><p>Messaggi, chiamate perse e richieste dai social si accumulano mentre lavori. Quando hai finito, spesso chi ti ha scritto si è già rivolto a qualcun altro.</p></details>
+          <details name="prob"><summary>Il marketing lo fai nei ritagli di tempo</summary><p>Un post quando riesci, una sponsorizzata provata una volta, un profilo fermo da mesi. Quando l’agenda si svuota scrivi ai vecchi pazienti, ma senza un piano. Non è pigrizia: il tuo lavoro è un altro.</p></details>
+        </div>
+      </div>
+      <div class="ps-col reveal">
+        <p class="ps-h">Con un <span class="acc-c">sistema</span></p>
+        <p class="ps-sub">Ogni passaggio ha qualcuno che se ne occupa.</p>
+        <div class="ps-visual ps-visual-blue" aria-hidden="true">
+          <div class="mk-flow">
+            <div><small>15:02</small><b>Arriva il messaggio</b></div>
+            <div><small>15:06</small><b>Lo richiamiamo noi</b></div>
+            <div class="ok"><small>15:09</small><b>In agenda: giovedì alle 10</b></div>
+          </div>
+        </div>
+        <div class="acc acc-blue">
+          <details name="sol" open><summary>Campagne nella tua zona</summary><p>Annunci su Meta rivolti a chi abita vicino a te, costruiti su un servizio preciso. Informativi e rispettosi della deontologia della tua professione.</p></details>
+          <details name="sol"><summary>Un commerciale che richiama</summary><p>Chiama in pochi minuti, negli orari di lavoro, chi ha chiesto informazioni. Capisce di cosa ha bisogno e fissa l’appuntamento nel tuo calendario, seguendo le indicazioni che ci dai all’inizio.</p></details>
+          <details name="sol"><summary>Tu resti sui pazienti</summary><p>Campagne, contenuti e presenza online li curiamo noi. Tu approvi quello che esce e vedi su una piattaforma ogni contatto, ogni chiamata e ogni appuntamento.</p></details>
+        </div>
+      </div>
+    </div>
+
+    <p class="stats-lead reveal">I pazienti che cercano un terapista ci sono già. Quello che manca, quasi sempre, è <strong>un sistema che li intercetti</strong>.</p>
+    <ul class="stats3 stats3-data reveal">
+      <li><b>74%</b><small>dei fisioterapisti liberi professionisti riceve spesso o sempre pazienti che arrivano da soli, senza invio del medico</small></li>
+      <li><b>71%</b><small>non si promuove mai, o lo fa raramente, con un profilo social</small></li>
+      <li><b>84%</b><small>non si promuove mai, o lo fa raramente, con un sito internet</small></li>
+    </ul>
+    <p class="fonte center reveal">Fonte: Osservatorio nazionale sulla libera professione in fisioterapia, FisioScience, rilevazione novembre–dicembre 2025 su 959 professionisti. Gli autori indicano il campione come non rappresentativo dell’intera categoria.</p>
+  </div>
+</section>
+
+<!-- IL PASSAGGIO CHE DECIDE (diagramma) -->
+<section class="sec dark" aria-labelledby="t-diag">
+  <div class="wrap">
+    <div class="head-c reveal">
+      <h2 id="t-diag">Tra l’annuncio e l’appuntamento<br><strong>c’è il passaggio che decide tutto.</strong></h2>
+      <p class="lead">Molte agenzie che lavorano con gli studi curano bene la prima parte: creano l’annuncio, raccolgono i contatti e te li consegnano in una lista. Da lì in poi tocca a te richiamare, spesso a fine giornata, persone che nel frattempo hanno cercato anche altrove.</p>
+    </div>
+    <div class="flows reveal">
+      <figure class="flow flow-ok">
+        <figcaption class="flow-t">Se lo richiama un <span class="acc-c">commerciale</span> dedicato…</figcaption>
+        <div class="flow-boxes" aria-hidden="true"><i>Contatto</i><i class="dim">Contatto</i><i>Contatto</i><i>Contatto</i></div>
+        <div class="flow-line" aria-hidden="true"></div>
+        <div class="flow-end">Richiamati in pochi minuti</div>
+        <p>La conversazione avviene mentre l’interesse è ancora vivo, e l’appuntamento <strong>finisce in agenda</strong>.</p>
+      </figure>
+      <figure class="flow flow-ko">
+        <figcaption class="flow-t">Se lo richiami tu, <span class="ko-c">a fine giornata</span>…</figcaption>
+        <div class="flow-boxes" aria-hidden="true"><i>Contatto</i><i>Contatto</i><i>Contatto</i><i>Contatto</i></div>
+        <div class="flow-line" aria-hidden="true"></div>
+        <div class="flow-end">Richiamati la sera</div>
+        <p>Ne recuperi una parte, ma chi aveva fretta <strong>ha già prenotato altrove</strong>.</p>
+      </figure>
+    </div>
+    <p class="flows-end reveal">Chi risponde entro un’ora ha <strong>quasi 7 volte</strong> più probabilità di qualificare il contatto rispetto a chi aspetta di più.<span>Per questo, nel nostro sistema, chi richiama i contatti conta quanto la campagna.</span></p>
+    <p class="fonte center reveal">Fonte: Oldroyd, McElheran, Elkington, «The Short Life of Online Sales Leads», Harvard Business Review, 2011. Analisi su 2.241 aziende statunitensi di vari settori: descrive una dinamica generale, non il settore sanitario italiano.</p>
+  </div>
+</section>
+
+<!-- COME LAVORIAMO (metodo) -->
+<section class="sec light" id="metodo" aria-labelledby="t-metodo">
+  <div class="wrap">
+    <div class="head-c reveal">
+      <h2 id="t-metodo">Prima la diagnosi.<br><strong>Poi la terapia.</strong></h2>
+      <p class="lead">È lo stesso metodo che usi con i tuoi pazienti: prima di proporre qualcosa, capiamo da dove parte il tuo studio. Ogni studio fa un percorso diverso, ma l’ordine dei passaggi è sempre questo.</p>
+    </div>
+
+    <div class="mrow reveal">
+      <div class="phone phone-light" aria-hidden="true">
+        <div class="phone-scr">
+          <div class="mk-sheet">
+            <div class="mk-sheet-h"><span>SCHEDA · DIAGNOSI</span><span>01</span></div>
+            <b>Il tuo studio</b>
+            <p><i></i>Situazione attuale</p>
+            <p><i></i>Criticità</p>
+            <p><i></i>Opportunità</p>
+            <p><i></i>Possibili scenari</p>
+            <p><i></i>Proiezione a 6 mesi</p>
+            <div class="mk-next"><small>PRONTA IN 24 ORE LAVORATIVE</small><strong>Diagnosi del tuo studio</strong><em>Te la presentiamo in videochiamata</em></div>
+          </div>
+        </div>
+      </div>
+      <div class="mrow-t">
+        <span class="num">01</span>
+        <h3>Leggiamo il tuo studio</h3>
+        <p>Partiamo dalle tue risposte: come arrivano oggi i pazienti, cosa frena la crescita, quanto spazio hai in agenda, cosa hai già provato e cosa vuoi ottenere nei prossimi mesi. Ne esce una diagnosi scritta, che ti presentiamo in videochiamata prima di decidere qualsiasi cosa.</p>
+      </div>
+    </div>
+
+    <div class="mrow mrow-rev reveal">
+      <div class="phone">
+        <div class="phone-scr">
+          <video class="reel" muted loop playsinline preload="metadata" poster="/assets/img/reel-poster.webp" aria-label="Reel di Protocollo Terapista girato da noi, con sottotitoli"></video>
+          <button class="audio-btn" type="button">Attiva l’audio</button>
+        </div>
+      </div>
+      <div class="mrow-t">
+        <span class="num">02</span>
+        <h3>Partiamo da un servizio preciso</h3>
+        <p>Nei primi 30 giorni dopo la firma studiamo la tua zona, i servizi che offri e il tuo modo di lavorare, e prepariamo la prima bozza di strategia e contenuti. Invece di pubblicizzare lo studio in generale, partiamo da un servizio legato a un problema frequente e da un primo appuntamento chiaro, con un prezzo che stabiliamo insieme in base alla tua zona e ai costi del tuo studio.</p>
+        <p>Dal trentunesimo giorno le campagne sono online.</p>
+        <p class="mrow-note">Questo Reel l’abbiamo girato noi. È lo stile che portiamo nel tuo studio, con la tua voce.</p>
+      </div>
+    </div>
+
+    <div class="mrow reveal">
+      <figure class="mk-laptop mk-laptop-l" aria-hidden="true">
+        <div class="mk-screen">
+          <div class="mk-dash-h"><b>Revisione del mese</b><small>Il tuo studio</small></div>
+          <div class="mk-kpis">
+            <div><small>Contatti</small><i style="--w:86%"></i></div>
+            <div><small>Richiamati</small><i style="--w:82%"></i></div>
+            <div><small>Appuntamenti</small><i style="--w:58%"></i></div>
+            <div><small>Percorsi</small><i style="--w:44%"></i></div>
+          </div>
+          <div class="mk-todo"><b>Cosa cambiamo</b><p>Nuovo annuncio sulla cervicale · più posti il sabato</p></div>
+        </div>
+        <div class="mk-base"></div>
+      </figure>
+      <div class="mrow-t">
+        <span class="num">03</span>
+        <h3>Misuriamo quello che conta</h3>
+        <p>Ogni mese guardiamo insieme quanti contatti sono arrivati, quanti sono stati richiamati, quanti sono diventati appuntamenti e quanti pazienti hanno iniziato un percorso. È quest’ultimo numero a fare la differenza: per lo studio, un paziente che fa una seduta e uno che inizia un percorso valgono cose molto diverse. In base ai numeri decidiamo insieme cosa tenere e cosa cambiare.</p>
+        <p class="mrow-note">Schermata di esempio. Il 72% dei fisioterapisti segue i pazienti in media per 3–10 sedute (FisioScience, 2025).</p>
+      </div>
+    </div>
+
+    <p class="cta-c center reveal"><a class="btn btn-glow" href="#diagnosi">Voglio la diagnosi gratuita del mio studio</a></p>
+  </div>
+</section>
+
+<!-- CASI STUDIO: «in costruzione» finché in config.js SHOW_CASE_STUDIES è false o in casi-studio.json non c’è un caso completo -->
+<section class="sec dark dark-2" id="casi-studio" aria-labelledby="t-casi">
+  <div class="wrap">
+    <div class="head-c reveal" data-casi="wip">
+      <p class="wip-tag">Lavori in corso</p>
+      <h2 id="t-casi">I casi studio<br><strong class="acc-c">li stiamo costruendo adesso.</strong></h2>
+      <p class="lead">In queste settimane stiamo seguendo i primi studi. Presto trovi qui i loro risultati, raccontati con i numeri misurati sulla piattaforma e con la voce dei terapisti.</p>
+    </div>
+    <div class="head-c" data-casi="ok" hidden>
+      <h2 id="t-casi-ok">Gli studi che seguiamo,<br><strong>con i loro numeri.</strong></h2>
+      <p class="lead">Ogni caso è raccontato con dati verificabili e con la voce del terapista.</p>
+    </div>
+
+    <ul class="wip" data-casi="wip">
+      <li class="wip-card reveal">
+        <div class="wip-tape" aria-hidden="true"></div>
+        <div class="wip-in">
+          <p class="wip-top"><span>Caso 01</span><em>In corso</em></p>
+          <div class="wip-rows" aria-hidden="true">
+            <p>Situazione di partenza</p><i></i><i class="s"></i>
+            <p>Cosa stiamo facendo</p><i></i><i class="s"></i>
+            <p>Risultati</p><b>In misurazione</b>
+          </div>
+        </div>
+      </li>
+      <li class="wip-card reveal">
+        <div class="wip-tape" aria-hidden="true"></div>
+        <div class="wip-in">
+          <p class="wip-top"><span>Caso 02</span><em>In corso</em></p>
+          <div class="wip-rows" aria-hidden="true">
+            <p>Situazione di partenza</p><i></i><i class="s"></i>
+            <p>Cosa stiamo facendo</p><i></i><i class="s"></i>
+            <p>Risultati</p><b>In misurazione</b>
+          </div>
+        </div>
+      </li>
+      <li class="wip-card wip-cta reveal">
+        <div class="wip-in">
+          <h3>Il prossimo può essere il tuo studio.</h3>
+          <p>In ogni zona seguiamo un solo studio per gli stessi servizi.</p>
+          <a class="link-arrow" href="#diagnosi">Inizia dalla diagnosi&nbsp;<span aria-hidden="true">↓</span></a>
+        </div>
+      </li>
+    </ul>
+    <div class="casi-list" data-casi="ok" hidden></div>
+  </div>
+</section>
+
+<!-- PER CHI È -->
+<section class="sec light" id="per-chi" aria-labelledby="t-perchi">
+  <div class="wrap">
+    <h2 id="t-perchi" class="center reveal">Per chi abbiamo costruito<br><strong class="acc-c">Protocollo Terapista</strong></h2>
+    <div class="perchi reveal">
+      <figure class="photo">
+        <img src="/assets/img/andrea.webp" width="800" height="1000" loading="lazy" decoding="async" alt="Andrea, socio di Protocollo Terapista, mentre registra un video">
+      </figure>
+      <div class="perchi-t">
+        <ul class="bul">
+          <li>Sei titolare o socio di uno studio di fisioterapia, osteopatia o massoterapia, e lavori da solo oppure con dei colleghi.</li>
+          <li>Hai ore libere in agenda, o le avresti se il flusso fosse più costante, e vuoi riempirle con pazienti adatti al tuo modo di lavorare.</li>
+          <li>I nuovi pazienti arrivano soprattutto da passaparola e convenzioni, e i mesi buoni si alternano a mesi in cui l’agenda si svuota.</li>
+          <li>Vuoi farti conoscere online in modo serio, senza trasformare il tuo lavoro in qualcosa che non ti somiglia.</li>
+        </ul>
+        <div class="nonfa">
+          <p class="nonfa-h">Ha senso aspettare se:</p>
+          <ul>
+            <li>la tua agenda è già piena per i prossimi mesi;</li>
+            <li>in questo periodo non riesci a esserci per le riprese in studio e per un incontro al mese sui numeri;</li>
+            <li>cerchi qualcuno che ti garantisca un numero di pazienti prima ancora di aver visto il tuo studio.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COSA COMPRENDE IL SERVIZIO: due card -->
+<section class="sec dark dark-tex" id="servizio" aria-labelledby="t-scelta">
+  <div class="wrap">
+    <h2 id="t-scelta" class="center reveal">Cosa facciamo, concretamente,<br><strong>per il tuo studio.</strong></h2>
+
+    <article class="offer offer-blue reveal">
+      <h3>Il protocollo per il tuo studio</h3>
+      <p class="offer-sub">Ogni parte del servizio toglie un ostacolo preciso, e tutte sono seguite dalle stesse persone.</p>
+      <div class="offer-body">
+        <figure class="mk-laptop" aria-hidden="true">
+          <div class="mk-screen">
+            <div class="mk-dash-h"><b>Il tuo studio</b><small>Contatti di questa settimana</small></div>
+            <div class="mk-row"><b>L. C.</b><small>arrivato alle 09:32</small><em class="pill-c">Da richiamare</em></div>
+            <div class="mk-row"><b>M. R.</b><small>richiamato dopo 7 min</small><em class="pill-a">In agenda</em></div>
+            <div class="mk-row"><b>S. P.</b><small>richiamato dopo 6 min</small><em class="pill-a">In agenda</em></div>
+            <div class="mk-row"><b>F. G.</b><small>prima visita fatta</small><em class="pill-p">Presente</em></div>
+          </div>
+          <div class="mk-base"></div>
+        </figure>
+        <ul class="ticks">
+          <li>Campagne su Meta nella tua zona, costruite su un servizio preciso, per non dipendere solo dal passaparola.</li>
+          <li>Video girati da noi nel tuo studio, 4 ore di riprese al mese, perché chi ti trova possa vedere te e il tuo modo di lavorare.</li>
+          <li>Un commerciale che chiama chi chiede informazioni, capisce di cosa ha bisogno e fissa l’appuntamento nel tuo calendario, con un copione costruito sul tuo studio.</li>
+          <li>La cura della tua reputazione online: sistemiamo quello che un potenziale paziente vede di te e che potrebbe frenarlo dal prenotare.</li>
+          <li>Una piattaforma dove vedi contatti, chiamate e appuntamenti, e un referente che ogni mese rivede con te i numeri.</li>
+        </ul>
+      </div>
+      <p class="offer-note">Schermata di esempio</p>
+    </article>
+
+    <article class="offer offer-dark reveal">
+      <h3>La diagnosi del tuo studio</h3>
+      <p class="offer-sub">È gratuita e serve a capire, prima di qualsiasi proposta, dove il tuo studio perde pazienti e quali opportunità ha.</p>
+      <div class="offer-body">
+        <div class="mk-doc" aria-hidden="true">
+          <div class="mk-doc-h"><span>DIAGNOSI</span><span>Il tuo studio</span></div>
+          <p><i></i>Situazione attuale</p>
+          <p><i></i>Criticità</p>
+          <p><i></i>Opportunità</p>
+          <p><i></i>Possibili scenari</p>
+          <p><i></i>Proiezione a 6 mesi</p>
+        </div>
+        <ul class="ticks">
+          <li>Rispondi a 9 domande su come lavori oggi: bastano un paio di minuti.</li>
+          <li>Entro 24 ore lavorative prepariamo la diagnosi scritta del tuo studio.</li>
+          <li>Te la presentiamo in videochiamata e, se ha senso lavorare insieme, ti mostriamo come.</li>
+        </ul>
+      </div>
+      <p class="offer-cta"><a class="btn btn-light" href="#diagnosi">Voglio la diagnosi gratuita del mio studio</a></p>
+    </article>
+  </div>
+</section>
+
+<!-- CONFRONTO -->
+<section class="sec dark dark-2" aria-labelledby="t-cmp">
+  <div class="wrap">
+    <h2 id="t-cmp" class="center reveal">Le alternative che stai valutando,<br><strong class="acc-c">messe a confronto.</strong></h2>
+    <div class="cmp-wrap reveal">
+      <table class="cmp">
+        <thead>
+          <tr>
+            <td></td>
+            <th scope="col" class="pt"><img src="/assets/img/logo-pt-crema.svg" alt="" width="22" height="24"><span>Protocollo Terapista</span></th>
+            <th scope="col">Agenzia generalista</th>
+            <th scope="col">Più fornitori</th>
+            <th scope="col">Fai da te</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><th scope="row">Conosce il tuo settore</th><td class="pt y">Lavora solo con terapisti manuali</td><td class="n">Lavora con settori diversi</td><td class="m">Dipende dal singolo fornitore</td><td class="y">Sì, ma ti manca il tempo</td></tr>
+          <tr><th scope="row">Chi richiama i nuovi contatti</th><td class="pt y">Un nostro commerciale, in pochi minuti</td><td class="n">Di solito ti consegna una lista</td><td class="n">Di solito tu</td><td class="n">Tu, quando finisci</td></tr>
+          <tr><th scope="row">Chi gira i contenuti</th><td class="pt y">Noi, nel tuo studio</td><td class="n">Spesso ti chiede di registrarli</td><td class="m">Un videomaker a parte</td><td class="n">Tu, con il telefono</td></tr>
+          <tr><th scope="row">Chi coordina il lavoro</th><td class="pt y">Un referente dedicato</td><td class="m">Un account</td><td class="n">Tu, tra più persone</td><td class="n">Tu</td></tr>
+          <tr><th scope="row">Chi fissa l’appuntamento</th><td class="pt y">Noi, nel tuo calendario</td><td class="n">Tu</td><td class="n">Tu</td><td class="n">Tu</td></tr>
+          <tr><th scope="row">Dove vedi i risultati</th><td class="pt y">Su una piattaforma, quando vuoi</td><td class="m">Nel report periodico</td><td class="n">In strumenti diversi</td><td class="m">Dove riesci a tenerne traccia</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <ul class="cmp-cards">
+      <li class="reveal"><p class="cmp-q">Conosce il tuo settore</p><p class="cmp-pt">Lavora solo con terapisti manuali</p><dl><div><dt>Agenzia generalista</dt><dd>Lavora con settori diversi</dd></div><div><dt>Più fornitori</dt><dd>Dipende dal singolo fornitore</dd></div><div><dt>Fai da te</dt><dd>Sì, ma ti manca il tempo</dd></div></dl></li>
+      <li class="reveal"><p class="cmp-q">Chi richiama i nuovi contatti</p><p class="cmp-pt">Un nostro commerciale, in pochi minuti</p><dl><div><dt>Agenzia generalista</dt><dd>Di solito ti consegna una lista</dd></div><div><dt>Più fornitori</dt><dd>Di solito tu</dd></div><div><dt>Fai da te</dt><dd>Tu, quando finisci</dd></div></dl></li>
+      <li class="reveal"><p class="cmp-q">Chi gira i contenuti</p><p class="cmp-pt">Noi, nel tuo studio</p><dl><div><dt>Agenzia generalista</dt><dd>Spesso ti chiede di registrarli</dd></div><div><dt>Più fornitori</dt><dd>Un videomaker a parte</dd></div><div><dt>Fai da te</dt><dd>Tu, con il telefono</dd></div></dl></li>
+      <li class="reveal"><p class="cmp-q">Chi coordina il lavoro</p><p class="cmp-pt">Un referente dedicato</p><dl><div><dt>Agenzia generalista</dt><dd>Un account</dd></div><div><dt>Più fornitori</dt><dd>Tu, tra più persone</dd></div><div><dt>Fai da te</dt><dd>Tu</dd></div></dl></li>
+      <li class="reveal"><p class="cmp-q">Chi fissa l’appuntamento</p><p class="cmp-pt">Noi, nel tuo calendario</p><dl><div><dt>Agenzia generalista</dt><dd>Tu</dd></div><div><dt>Più fornitori</dt><dd>Tu</dd></div><div><dt>Fai da te</dt><dd>Tu</dd></div></dl></li>
+      <li class="reveal"><p class="cmp-q">Dove vedi i risultati</p><p class="cmp-pt">Su una piattaforma, quando vuoi</p><dl><div><dt>Agenzia generalista</dt><dd>Nel report periodico</dd></div><div><dt>Più fornitori</dt><dd>In strumenti diversi</dd></div><div><dt>Fai da te</dt><dd>Dove riesci a tenerne traccia</dd></div></dl></li>
+    </ul>
+  </div>
+</section>
+
+<!-- PERCHÉ SOLO TERAPISTI MANUALI (7 settori) -->
+<section class="sec dark" aria-labelledby="t-settori">
+  <div class="wrap narrow">
+    <h2 id="t-settori" class="reveal">Abbiamo scelto di lavorare<br><strong class="acc-c">solo con i terapisti manuali.</strong></h2>
+    <p class="reveal">Prima di partire abbiamo messo a confronto sette settori in cui avremmo potuto lavorare, valutandoli su sei criteri.</p>
+    <div class="sectors reveal" aria-hidden="true">
+      <span class="win">Fisioterapia</span><span class="win win-2">Osteopatia</span><span>Odontoiatria</span><span>Psicologia</span><span>Estetica</span><span>Personal trainer</span><span>Discipline olistiche</span>
+    </div>
+    <p class="reveal">La fisioterapia ha ottenuto il punteggio più alto. Lavoriamo anche con osteopati e massoterapisti perché il loro paziente sceglie allo stesso modo: si affida a una persona, prima ancora che a uno studio.</p>
+    <p class="reveal">Concentrarci su un solo ambito ci permette di imparare in fretta il linguaggio dei tuoi pazienti, le domande che fanno prima di prenotare e i limiti della pubblicità sanitaria. Ogni studio che seguiamo ci insegna qualcosa che usiamo per il successivo.</p>
+    <ul class="why reveal">
+      <li><span class="why-n">01</span><span>È un lavoro in cui la fiducia nella persona conta molto, ed è per questo che i video girati nel tuo studio fanno una differenza concreta.</span></li>
+      <li><span class="why-n">02</span><span>L’84,5% dei fisioterapisti liberi professionisti non ha mai acquistato un servizio di marketing.<sup><a href="#fonte-1" id="rif-1" aria-label="Fonte 1">1</a></sup> C’è molto da costruire, e va costruito con attenzione.</span></li>
+      <li><span class="why-n">03</span><span>La pubblicità sanitaria ha regole precise. Lavorarci ogni giorno ci permette di rispettarle senza rinunciare a comunicare bene.</span></li>
+    </ul>
+    <p class="fonte reveal" id="fonte-1"><sup>1</sup> Osservatorio Nazionale sulla Libera Professione in Fisioterapia 2025, FisioScience, campione di 959 fisioterapisti liberi professionisti.</p>
+  </div>
+</section>
+
+<!-- CHI C’È DIETRO -->
+<section class="sec light" aria-labelledby="t-soci">
+  <div class="wrap">
+    <div class="head-c reveal">
+      <h2 id="t-soci">Chi c’è dietro<br><strong>Protocollo Terapista</strong></h2>
+      <p class="lead">Tre soci, ognuno responsabile di un’area del servizio.</p>
+    </div>
+    <div class="narrow story2 reveal">
+      <p>Siamo Andrea, Cristiano e Lorenzo. Protocollo Terapista è un progetto giovane, costruito da persone che hanno passato molte ore a studiare e a sperimentare sulla propria pelle, un po’ come hai fatto tu all’inizio della tua carriera da terapista.</p>
+      <p>Avremmo potuto riempire questa pagina come si vede spesso, con casi studio costruiti a tavolino e testimonianze senza un nome reale. Non l’abbiamo fatto perché <strong>non è nei nostri valori</strong>: i risultati degli studi che seguiamo li troverai qui quando saranno misurati, insieme al nome di chi li ha ottenuti.</p>
+    </div>
+    <ul class="soci">
+      <li class="socio reveal">
+        <div class="socio-foto" data-socio="andrea"><img src="/assets/img/andrea.webp" width="800" height="1000" loading="lazy" decoding="async" alt="Andrea"></div>
+        <h3>Andrea</h3>
+        <p class="socio-ruolo">Contenuti e riprese</p>
+        <p>Viene in studio per le riprese, prepara con te i temi dei video e ne cura il montaggio. Lo vedi anche nei nostri contenuti.</p>
+      </li>
+      <li class="socio reveal">
+        <div class="socio-foto" data-socio="cristiano"><span class="iniziale" aria-hidden="true">C</span></div>
+        <h3>Cristiano</h3>
+        <p class="socio-ruolo">Vendita e rapporto con lo studio</p>
+        <p>È la persona che ti chiama dopo la diagnosi e che resta il tuo referente per tutto il percorso.</p>
+      </li>
+      <li class="socio reveal">
+        <div class="socio-foto" data-socio="lorenzo"><span class="iniziale" aria-hidden="true">L</span></div>
+        <h3>Lorenzo</h3>
+        <p class="socio-ruolo">Campagne e automazioni</p>
+        <p>Costruisce le campagne, il percorso che fa ogni contatto e la piattaforma, e segue i numeri ogni giorno.</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- GARANZIA -->
+<section class="sec dark dark-tex" aria-labelledby="t-garanzia">
+  <div class="wrap">
+    <h2 id="t-garanzia" class="center reveal">Il rischio<br><strong class="acc-c">lo dividiamo con te.</strong></h2>
+    <div class="ticket-wrap reveal" aria-hidden="true">
+      <div class="ticket ticket-back"></div>
+      <div class="ticket">
+        <div class="ticket-h"><img src="/assets/img/logo-pt-crema.svg" alt="" width="22" height="24"><span>GARANZIA</span></div>
+        <p class="ticket-big"><span>+2</span> mesi</p>
+        <p class="ticket-s">di lavoro gratuito se non recuperi l’investimento</p>
+        <p class="ticket-s">Scritta nel contratto</p>
+        <div class="ticket-bar"></div>
+      </div>
+    </div>
+    <div class="narrow center-t reveal">
+      <p class="lead">Se alla fine del primo percorso non hai recuperato quanto hai investito nel nostro servizio, continuiamo a lavorare per te gratis per altri due mesi. È una condizione scritta nel contratto, insieme al modo in cui misuriamo il recupero.</p>
+      <p class="small">Tutte le condizioni te le spieghiamo in videochiamata, prima di qualsiasi firma.</p>
+      <p class="cta-c"><a class="btn btn-glow" href="#diagnosi">Voglio la diagnosi gratuita del mio studio</a></p>
+    </div>
+  </div>
+</section>
+
+<!-- I DUBBI CHE BLOCCANO LA DECISIONE -->
+<section class="sec light" aria-labelledby="t-onesta">
+  <div class="wrap narrow">
+    <h2 id="t-onesta" class="reveal">Funzionerà anche<br><strong>per il tuo studio?</strong></h2>
+    <div class="reveal">
+      <p>È la domanda più sensata che puoi farti, e la risposta onesta è che dipende: dalla zona in cui lavori, dal servizio da cui partiamo, da quanto il tuo studio è già conosciuto e da quanto spazio hai davvero in agenda. Per questo non ti facciamo promesse prima di aver visto i tuoi dati. La diagnosi serve proprio a capire se le condizioni ci sono e, se mancano, a dirtelo prima che tu spenda qualcosa.</p>
+    </div>
+    <div class="objs">
+      <div class="obj reveal">
+        <h3>«Siete appena partiti: perché dovrei fidarmi?»</h3>
+        <p>È giusto chiederselo. I primi casi studio li stiamo costruendo adesso. Intanto puoi valutarci su cose concrete: un metodo che ti spieghiamo per intero prima di iniziare, condizioni scritte, una garanzia con cui condividiamo il rischio e una piattaforma in cui vedi, giorno per giorno, cosa stiamo facendo per il tuo studio.</p>
+      </div>
+      <div class="obj reveal">
+        <h3>«Chi parla con i miei futuri pazienti, e cosa dice?»</h3>
+        <p>Un nostro commerciale, che segue un copione e un modo di lavorare costruiti sul tuo studio e concordati con te nel brief iniziale. Presenta lo studio come lo presenteresti tu, capisce di cosa ha bisogno la persona e fissa l’appuntamento nel tuo calendario.</p>
+      </div>
+      <div class="obj reveal">
+        <h3>«Ho già provato un’agenzia e non è andata bene.»</h3>
+        <p>Capita spesso, e di solito per motivi precisi: contatti richiamati troppo tardi, messaggi pensati per qualsiasi attività, nessuno che conoscesse davvero il settore. Nella diagnosi partiamo proprio da lì, perché capire cosa non ha funzionato evita di ripetere lo stesso errore.</p>
+      </div>
+      <div class="obj reveal">
+        <h3>«Non voglio sembrare uno che si vende.»</h3>
+        <p>Lo capiamo, e sappiamo quanto pesa il giudizio dei colleghi. I contenuti che giriamo sono informativi e parlano del tuo lavoro, non di offerte. Ogni annuncio e ogni video li approvi tu prima che vengano pubblicati.</p>
+      </div>
+      <div class="obj reveal">
+        <h3>«Non ho tempo per i video.»</h3>
+        <p>Le riprese le organizziamo noi, in studio, circa 4 ore al mese. Ti diciamo prima di cosa parleremo e ti guidiamo mentre giriamo. A te resta quello che fai già ogni giorno: spiegare ai pazienti cosa sta succedendo e come li puoi aiutare.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DIAGNOSI + MODULO -->
+<section class="sec dark" id="diagnosi" aria-labelledby="t-diagnosi">
+  <div class="wrap">
+    <div class="head-c reveal">
+      <h2 id="t-diagnosi">Inizia dalla<br><strong class="acc-c">diagnosi del tuo studio</strong>.</h2>
+      <p class="lead">Ci racconti come lavori oggi e ricevi una diagnosi scritta del tuo studio, che resta tua anche se decidi di non lavorare con noi.</p>
+    </div>
+    <ol class="steps4 reveal">
+      <li><span>01</span><b>Rispondi a 9 domande</b><p>Bastano un paio di minuti: come lavori oggi, da dove arrivano i pazienti, cosa vuoi ottenere.</p></li>
+      <li><span>02</span><b>Prepariamo la diagnosi</b><p>Entro 24 ore lavorative, scritta sul tuo studio partendo dalle tue risposte.</p></li>
+      <li><span>03</span><b>Ti chiamiamo</b><p>Per fissare la videochiamata nel giorno e nell’orario che preferisci.</p></li>
+      <li><span>04</span><b>Te la presentiamo</b><p>Situazione, criticità, opportunità e una proiezione dei prossimi sei mesi. Se ha senso lavorare insieme te lo diciamo lì, e se non ce l’ha ti diciamo anche questo.</p></li>
+    </ol>
+
+    <div class="qcard">
+      <form class="qform" id="qform" novalidate>
+        <div class="qf-top">
+          <p class="qf-count" id="qf-count" aria-live="polite">Domanda 1 di 9</p>
+          <div class="qf-progress" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+        </div>
+
+        <fieldset class="qf-step" data-type="single" data-name="professione">
+          <legend class="qf-q" tabindex="-1">Qual è la tua professione?</legend>
+          <div class="qf-opts">
+            <button type="button" class="opt" aria-pressed="false">Fisioterapista</button>
+            <button type="button" class="opt" aria-pressed="false">Osteopata</button>
+            <button type="button" class="opt" aria-pressed="false">Massoterapista</button>
+            <button type="button" class="opt" aria-pressed="false">Altro</button>
+          </div>
+        </fieldset>
+
+        <fieldset class="qf-step" data-type="single" data-name="ruolo" hidden>
+          <legend class="qf-q" tabindex="-1">Qual è il tuo ruolo nell’attività?</legend>
+          <div class="qf-opts">
+            <button type="button" class="opt" aria-pressed="false">Titolare</button>
+            <button type="button" class="opt" aria-pressed="false">Socio</button>
+            <button type="button" class="opt" aria-pressed="false">Collaboratore</button>
+            <button type="button" class="opt" aria-pressed="false">Libero professionista individuale</button>
+            <button type="button" class="opt" aria-pressed="false">Altro</button>
+          </div>
+        </fieldset>
+
+        <fieldset class="qf-step" data-type="single" data-name="struttura_attivita" hidden>
+          <legend class="qf-q" tabindex="-1">Com’è strutturata oggi la tua attività?</legend>
+          <div class="qf-opts">
+            <button type="button" class="opt" aria-pressed="false">Lavoro da solo</button>
+            <button type="button" class="opt" aria-pressed="false">2-3 professionisti</button>
+            <button type="button" class="opt" aria-pressed="false">4-6 professionisti</button>
+            <button type="button" class="opt" aria-pressed="false">7+ professionisti</button>
+          </div>
+        </fieldset>
+
+        <fieldset class="qf-step" data-type="single" data-name="acquisizione_pazienti" hidden>
+          <legend class="qf-q" tabindex="-1">Come arrivano oggi, principalmente, i tuoi nuovi pazienti?</legend>
+          <div class="qf-opts">
+            <button type="button" class="opt" aria-pressed="false">Passaparola</button>
+            <button type="button" class="opt" aria-pressed="false">Google</button>
+            <button type="button" class="opt" aria-pressed="false">Instagram / Social</button>
+            <button type="button" class="opt" aria-pressed="false">Pubblicità online</button>
+            <button type="button" class="opt" aria-pressed="false">Collaborazioni / Convenzioni</button>
+            <button type="button" class="opt" aria-pressed="false">Altro</button>
+          </div>
+        </fieldset>
+
+        <fieldset class="qf-step" data-type="single" data-name="ostacolo_principale" hidden>
+          <legend class="qf-q" tabindex="-1">Qual è oggi il principale ostacolo alla crescita della tua attività?</legend>
+          <div class="qf-opts">
+            <button type="button" class="opt" aria-pressed="false">Agenda poco prevedibile</button>
+            <button type="button" class="opt" aria-pressed="false">Troppa dipendenza dal passaparola</button>
+            <button type="button" class="opt" aria-pressed="false">Poche richieste di nuovi pazienti</button>
+            <button type="button" class="opt" aria-pressed="false">Faccio fatica a comunicare sui social</button>
+            <button type="button" class="opt" aria-pressed="false">Arrivano contatti ma pochi diventano appuntamenti</button>
+            <button type="button" class="opt" aria-pressed="false">Non ho tempo per gestire marketing e richieste</button>
+            <button type="button" class="opt" aria-pressed="false">Altro</button>
+          </div>
+        </fieldset>
+
+        <fieldset class="qf-step" data-type="single" data-name="capacita_nuovi_pazienti" hidden>
+          <legend class="qf-q" tabindex="-1">Se da domani arrivassero più richieste, avresti capacità per gestire nuovi pazienti?</legend>
+          <div class="qf-opts">
+            <button type="button" class="opt" aria-pressed="false">Sì, molta</button>
+            <button type="button" class="opt" aria-pressed="false">Sì, ma limitata</button>
+            <button type="button" class="opt" aria-pressed="false">Molto poco</button>
+            <button type="button" class="opt" aria-pressed="false">No, siamo già pieni</button>
+          </div>
+        </fieldset>
+
+        <fieldset class="qf-step" data-type="single" data-name="esperienza_marketing" hidden>
+          <legend class="qf-q" tabindex="-1">Hai già investito in marketing o lavorato con un’agenzia?</legend>
+          <div class="qf-opts">
+            <button type="button" class="opt" aria-pressed="false">Mai</button>
+            <button type="button" class="opt" aria-pressed="false">Sì, esperienza positiva</button>
+            <button type="button" class="opt" aria-pressed="false">Sì, esperienza negativa</button>
+            <button type="button" class="opt" aria-pressed="false">Lo sto facendo attualmente</button>
+          </div>
+        </fieldset>
+
+        <fieldset class="qf-step" data-type="text" data-name="motivazione" hidden>
+          <legend class="qf-q" id="q-motivazione" tabindex="-1">Cosa ti ha spinto a richiedere la diagnosi?</legend>
+          <p class="qf-sub" id="s-motivazione">Raccontacelo con parole tue. È facoltativo, ma ci aiuta a prepararla meglio.</p>
+          <div class="field">
+            <textarea id="f-motivazione" rows="4" aria-labelledby="q-motivazione" aria-describedby="s-motivazione" placeholder="Scrivi qui la tua risposta…"></textarea>
+          </div>
+        </fieldset>
+
+        <fieldset class="qf-step" data-type="text" data-name="obiettivo_6_12_mesi" hidden>
+          <legend class="qf-q" id="q-obiettivo" tabindex="-1">Quale risultato vorresti ottenere nei prossimi 6-12 mesi?</legend>
+          <p class="qf-sub" id="s-obiettivo">Per esempio più pazienti, un’agenda più prevedibile, più tempo per te o la crescita dello studio. Facoltativo.</p>
+          <div class="field">
+            <textarea id="f-obiettivo" rows="4" aria-labelledby="q-obiettivo" aria-describedby="s-obiettivo" placeholder="Scrivi qui la tua risposta…"></textarea>
+          </div>
+        </fieldset>
+
+        <fieldset class="qf-step" data-type="contact" hidden>
+          <legend class="qf-q" tabindex="-1">Ultima cosa: come ti contattiamo?</legend>
+          <div class="field">
+            <label for="f-nome">Nome e cognome</label>
+            <input id="f-nome" name="nome" type="text" autocomplete="name" aria-describedby="e-nome">
+            <p class="f-err" id="e-nome"></p>
+          </div>
+          <div class="field-2">
+            <div class="field">
+              <label for="f-studio">Nome dello studio o dell’attività</label>
+              <input id="f-studio" name="studio" type="text" autocomplete="organization">
+            </div>
+            <div class="field">
+              <label for="f-citta">Città dello studio</label>
+              <input id="f-citta" name="citta" type="text" autocomplete="address-level2">
+            </div>
+          </div>
+          <div class="field">
+            <label for="f-email">Email</label>
+            <input id="f-email" name="email" type="email" autocomplete="email" inputmode="email" aria-describedby="e-email">
+            <p class="f-err" id="e-email"></p>
+          </div>
+          <div class="field">
+            <label for="f-tel">Cellulare (anche WhatsApp)</label>
+            <input id="f-tel" name="cellulare" type="tel" autocomplete="tel" inputmode="tel" aria-describedby="e-tel">
+            <p class="f-err" id="e-tel"></p>
+          </div>
+          <div class="checks">
+            <label class="chk">
+              <input type="checkbox" name="consenso_privacy" id="f-privacy" aria-describedby="e-privacy">
+              <span>Ho letto l’<a data-href="privacy" href="#" target="_blank" rel="noopener">informativa privacy</a> e acconsento al trattamento dei miei dati per ricevere la diagnosi ed essere ricontattato.</span>
+            </label>
+            <p class="f-err" id="e-privacy"></p>
+            <label class="chk">
+              <input type="checkbox" name="consenso_newsletter" id="f-news">
+              <span>Voglio ricevere via email aggiornamenti e contenuti di Protocollo Terapista.</span>
+            </label>
+          </div>
+          <div class="hp" aria-hidden="true">
+            <label for="f-sito">Sito</label>
+            <input id="f-sito" name="sito_web" type="text" tabindex="-1" autocomplete="off">
+          </div>
+          <button type="submit" class="btn btn-glow btn-full qf-submit">Invia e richiedi la diagnosi</button>
+          <p class="qf-micro">Ti chiamiamo solo per fissare la videochiamata.</p>
+        </fieldset>
+
+        <p class="qf-error" id="qf-error" role="alert"></p>
+
+        <div class="qf-nav">
+          <button type="button" class="qf-back" hidden>← Indietro</button>
+          <button type="button" class="btn qf-next" hidden>Avanti</button>
+        </div>
+      </form>
+
+      <div class="qf-done" id="qf-done" tabindex="-1" hidden>
+        <p class="qf-done-t">Ricevuto, <span data-nome></span>.</p>
+        <p>Entro 24 ore lavorative la diagnosi del tuo studio è pronta. Ti chiamiamo al numero che ci hai lasciato per fissare la videochiamata in cui te la presentiamo.</p>
+        <a class="link-arrow" data-href="instagram" href="https://www.instagram.com/protocolloterapista/" target="_blank" rel="noopener">Nel frattempo, guarda come lavoriamo su Instagram&nbsp;<span aria-hidden="true">↗</span></a>
+      </div>
+
+      <p class="qf-fail" hidden>Ops, l’invio non è andato. Riprova tra un attimo: le tue risposte sono ancora qui.</p>
+      <div hidden>
+        <span data-err="scegli">Scegli almeno una risposta per andare avanti.</span>
+        <span data-err="nome">Ci servono nome e cognome.</span>
+        <span data-err="email">Questa email non sembra giusta. Ricontrolli?</span>
+        <span data-err="tel">Ci serve un cellulare italiano o svizzero valido.</span>
+        <span data-err="privacy">Senza questo consenso non possiamo prepararti la diagnosi.</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="sec light" id="faq" aria-labelledby="t-faq">
+  <div class="wrap narrow">
+    <h2 id="t-faq" class="reveal">Domande frequenti</h2>
+    <div class="faq reveal">
+      <details name="faq"><summary><i class="q" aria-hidden="true">?</i><span>Quanto costa?</span><i class="pm" aria-hidden="true"></i></summary><p>Non abbiamo un listino uguale per tutti. Uno studio con più professionisti a Milano e un libero professionista a Saronno hanno problemi ed esigenze diverse, e la proposta va costruita su chi abbiamo davanti. Per questo il costo te lo presenta il nostro commerciale in videochiamata, dopo la diagnosi, con tutte le condizioni scritte.</p></details>
+      <details name="faq"><summary><i class="q" aria-hidden="true">?</i><span>La diagnosi è davvero gratuita? Mi impegna a qualcosa?</span><i class="pm" aria-hidden="true"></i></summary><p>È gratuita e non ti impegna a niente. In videochiamata ti presentiamo anche una proposta, ma accettarla resta una tua scelta, e la diagnosi resta comunque tua.</p></details>
+      <details name="faq"><summary><i class="q" aria-hidden="true">?</i><span>Quando partono le campagne?</span><i class="pm" aria-hidden="true"></i></summary><p>Nei primi 30 giorni dopo la firma studiamo la tua zona, i servizi che offri e come lavori, e prepariamo la prima bozza di strategia e contenuti. Dal trentunesimo giorno andiamo online con le campagne.</p></details>
+      <details name="faq"><summary><i class="q" aria-hidden="true">?</i><span>Quanto tempo mi chiedete?</span><i class="pm" aria-hidden="true"></i></summary><p>All’inizio un brief, in cui ci racconti il tuo studio e come vuoi che vengano gestite le chiamate con i pazienti. Poi circa 4 ore al mese per le riprese, che organizziamo e facciamo noi in studio, e un incontro al mese per rivedere insieme i numeri. Il resto è lavoro nostro.</p></details>
+      <details name="faq"><summary><i class="q" aria-hidden="true">?</i><span>Lavorate con più studi nella stessa zona?</span><i class="pm" aria-hidden="true"></i></summary><p>No. In ogni zona lavoriamo con un solo studio per gli stessi servizi, così non ci troviamo mai a far concorrenza a chi seguiamo.</p></details>
+      <details name="faq"><summary><i class="q" aria-hidden="true">?</i><span>Devo per forza comparire nei video?</span><i class="pm" aria-hidden="true"></i></summary><p>Sì, perché chi ti sceglie vuole vedere chi lo curerà, e la tua competenza si capisce meglio dalla tua voce. I temi li prepariamo noi e durante le riprese ti guidiamo passo per passo.</p></details>
+      <details name="faq"><summary><i class="q" aria-hidden="true">?</i><span>Lavorate anche con osteopati, massoterapisti e con chi lavora da solo?</span><i class="pm" aria-hidden="true"></i></summary><p>Sì. Lavoriamo con fisioterapisti, osteopati e massoterapisti, sia negli studi con più professionisti sia con chi lavora da solo.</p></details>
+      <details name="faq"><summary><i class="q" aria-hidden="true">?</i><span>Come gestite la pubblicità sanitaria?</span><i class="pm" aria-hidden="true"></i></summary><p>Campagne e contenuti sono informativi e rispettano la deontologia della tua professione: niente promesse di guarigione e niente toni da saldo. Ogni annuncio lo approvi tu prima che venga pubblicato.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- CHIUSURA -->
+<section class="sec dark closing" aria-labelledby="t-chiusura">
+  <div class="wrap center-t reveal">
+    <h2 id="t-chiusura">Vediamo se ha senso<br><strong class="acc-c">lavorare insieme</strong>.</h2>
+    <p class="lead">Il primo passo ti chiede un paio di minuti e non ti impegna a niente. Ci racconti come lavori oggi, entro 24 ore lavorative ricevi la diagnosi del tuo studio e ne parliamo insieme in videochiamata. Se vediamo margini concreti per aiutarti te lo diciamo, e se non ci sono te lo diciamo lo stesso.</p>
+    <p class="lead">Se lasci le cose come stanno, i prossimi mesi continueranno a dipendere dal passaparola e dal periodo dell’anno. E poiché in ogni zona seguiamo un solo studio per gli stessi servizi, nella diagnosi ti diciamo anche se la tua è ancora libera.</p>
+    <p class="cta-c"><a class="btn btn-glow" href="#diagnosi">Voglio la diagnosi gratuita del mio studio</a></p>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <p class="bigword" aria-hidden="true">Protocollo Terapista</p>
+  <div class="wrap">
+    <div class="f-row">
+      <a class="brand" href="#inizio" aria-label="Protocollo Terapista, torna all’inizio"><img src="/assets/img/logo-pt-crema.svg" alt="" width="24" height="26" loading="lazy"><span>Protocollo Terapista</span></a>
+      <ul class="f-links">
+        <li><a data-href="instagram" href="https://www.instagram.com/protocolloterapista/" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a data-href="privacy" href="#" target="_blank" rel="noopener">Privacy policy</a></li>
+        <li><a data-href="cookie" href="#" target="_blank" rel="noopener">Cookie policy</a></li>
+        <li><button type="button" class="linklike" data-cookie-prefs>Preferenze cookie</button></li>
+      </ul>
+    </div>
+    <p class="f-legal" data-legal></p>
+    <p class="f-disc"><b>Disclaimer.</b> Protocollo Terapista non garantisce un numero di pazienti. I risultati dipendono dalla zona, dal servizio, dallo studio e da molti altri fattori. Quello che garantiamo è scritto nel contratto: il metodo, la presenza della squadra e le condizioni della garanzia.</p>
+    <p class="f-copy">© <span data-year>2026</span> Protocollo Terapista</p>
+  </div>
+</footer>
+
+<!-- CTA sempre visibile -->
+<div class="float-cta" aria-hidden="true">
+  <a class="btn btn-glow" href="#diagnosi" tabindex="-1">Voglio la diagnosi gratuita</a>
+</div>
+
+</body>
+</html>

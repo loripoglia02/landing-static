@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="350 322 580 622" role="img" aria-label="Protocollo Terapista">
+  <defs>
+    <mask id="pt-anello-c" maskUnits="userSpaceOnUse" x="350" y="322" width="580" height="622">
+      <rect x="350" y="322" width="580" height="622" fill="#fff"/>
+      <circle cx="648" cy="686" r="68" fill="#000"/>
+    </mask>
+  </defs>
+  <g fill="none" stroke="#F4F2E8" stroke-width="85" stroke-linecap="round" mask="url(#pt-anello-c)">
+    <path d="M398 367H726A157 157 0 0 1 726 681H650"/>
+    <path d="M713 541H493A98 98 0 0 0 395 639V817"/>
+    <path d="M395 683H650"/>
+    <path d="M644 690V897"/>
+  </g>
+  <circle cx="648" cy="686" r="43" fill="#A5C3C9"/>
+</svg>

@@ -1,0 +1,16 @@
+{
+  "_istruzioni": "Un oggetto per caso dentro \"casi\". La sezione compare solo se SHOW_CASE_STUDIES è true in config.js e se almeno un caso ha tutti i campi compilati. Niente dati inventati.",
+  "_modello": {
+    "studio": "",
+    "citta": "",
+    "professione": "",
+    "situazione_partenza": "",
+    "cosa_abbiamo_fatto": "",
+    "risultati": [
+      { "numero": "", "periodo": "", "fonte": "" }
+    ],
+    "frase_terapista": "",
+    "foto": "assets/img/casi/nome-file.webp"
+  },
+  "casi": []
+}
